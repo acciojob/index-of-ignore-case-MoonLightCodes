@@ -1,16 +1,26 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index Finder</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <div class="container">
+    <h1>Case-Insensitive Index Finder</h1>
+    <label for="mainString">Enter Main String:</label>
+    <input type="text" id="mainString" placeholder="Type your main string here">
 
+    <label for="subString">Enter Substring:</label>
+    <input type="text" id="subString" placeholder="Type your substring here">
+
+    <button id="findIndexButton">Find Index</button>
+    
+    <div class="result">
+      <strong>Result:</strong> <span id="resultText"></span>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
-
 </html>
